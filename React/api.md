@@ -1,7 +1,7 @@
 # ReactDom
 ### render(element, domNode)
 
-### React.createElement(string: tag, object: attributes, string: textNode | array childNodes)
+### React.createElement(string: tag | component, object: attributes, string: ...textNode | array childNodes)
 
 ```js
 const element = {
@@ -12,3 +12,7 @@ const element = {
   }
 };
 ```
+
+### return a single element
+- []
+- Fragment
