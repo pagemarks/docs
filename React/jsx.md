@@ -3,6 +3,10 @@ js语法扩展,模板+逻辑
 
 ## {}
 - 属性中嵌入表达式时,不要用引号.属性值要么用引号要么表达式
+- 注释须放在{}里,支持js // /* */ 
+
+### ()
+包裹元素,return
 
 ## 条件渲染
 - if () else
@@ -66,6 +70,8 @@ class NameForm extends React.Component {
 jsx语法更贴近JavaScript,而不是html.所以相关多单词属性名须用camelCase命名.className,tabIndex
 
 ## 自闭合</>
+
+### 自定义组件首字母大写
 
 ## 防注入攻击
 直接插入数据,会进行转义,有效防止XSS攻击
