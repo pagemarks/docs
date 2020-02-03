@@ -15,6 +15,7 @@
 
 ## Backend
 - PHP https://www.php.net/docs.php
+  * PSR https://www.php-fig.org/psr/
 - MySQL https://dev.mysql.com/doc/
 
 ## Server
