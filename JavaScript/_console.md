@@ -7,7 +7,7 @@
 - %d %i: int
 - %f: float
 - %o %O: object
-- %c: css style rules
+- %c: css style rules: 'color: red;background:blue'
 - %O like console.dir()
 
 
@@ -15,13 +15,13 @@
 输出时与log样式不同,error和trace会输出调用栈
 
 ### dir(object):
-输出对象
+输出展开对象
 
 ### dirxml(dom):
 dom tree
 
 ### table(array | object):
-表格形式展示
+表格形式展示,对象数组
 
 ### time(string label),timeEnd(string label):
 中间包含代码运行时间统计
@@ -40,3 +40,6 @@ dom tree
 
 ### clear():
 清空控制台内容.
+
+### trace(tagName)
+调用栈分析,调用函数内
