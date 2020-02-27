@@ -8,8 +8,9 @@ text: 常规段落,有换行和空格
 
 \*\*{text}\*\* | \_\_{text}\_\_: 两个*|_包裹的文本为加粗显示
 
-![alt text](src): 插入图片
-[text](url): 超链接
+!\[alt text\]\(src\): 插入图片
+
+\[text\]\(url\): 超链接
 
 \`code\`: 代码片段
 
@@ -21,25 +22,24 @@ text: 常规段落,有换行和空格
 ## GitHub扩展
 ### 代码片段
 语法高亮显示
-<pre>
-```{language}
+
+\`\`\`{language}
 ....codes
-```
-<pre>
+\`\`\`
 
 ### 任务列表
 checkbox
 
 \- \[x\] : 已完成项
+
 \- \[ \] : 未完成项
 
 ### 表格
 --- 风格表头th和正文
-<pre>
-text | text 
----- | ----
-text | text
-<pre>
+
+text \| text 
+---- \| ----
+text \| text
 
 \可转译相关字符
 
