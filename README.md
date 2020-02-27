@@ -17,11 +17,12 @@
 - PHP https://www.php.net/docs.php
   * PSR https://www.php-fig.org/psr/
 - MySQL https://dev.mysql.com/doc/
+- Redis https://redis.io/documentation
 
 ## Server
 - Linux https://www.linux.org/docs/
 - Nginx http://nginx.org/en/docs/
-- Redis https://redis.io/documentation
+
 
 ## tools
 - git https://git-scm.com/docs
